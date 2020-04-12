@@ -10,9 +10,9 @@ public class FinishLevel : MonoBehaviour
     public GameObject TimeLeft;
     public GameObject theScore;
     public GameObject totalScore;
-    public int timeCal;
-    public int scoreCal;
-    public int totalScoredd;
+    public float timeCal;
+    public float scoreCal;
+    public float totalScoredd;
 
     void OnTriggerEnter()
     {

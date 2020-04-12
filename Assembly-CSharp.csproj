@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{769DEAFF-6B17-8D77-A130-FE47AC35ED14}</ProjectGuid>
+    <ProjectGuid>{275EF3CD-6679-CEEF-1993-7ED408120A58}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,19 +63,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Gems Object\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
+    <Compile Include="Assets\Audio\Retro Sound Effects\Demo\Demo.cs" />
+    <Compile Include="Assets\Gems\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
+    <Compile Include="Assets\Script\BackToMenu.cs" />
     <Compile Include="Assets\Script\FinishLevel.cs" />
     <Compile Include="Assets\Script\GemPink.cs" />
     <Compile Include="Assets\Script\GemRotate.cs" />
     <Compile Include="Assets\Script\GlobalScore.cs" />
     <Compile Include="Assets\Script\GlobalTimer.cs" />
-    <Compile Include="Assets\Script\LevelDeath.cs" />
+    <Compile Include="Assets\Script\LevelScript\Level001.cs" />
+    <Compile Include="Assets\Script\MainMenuFunction.cs" />
     <Compile Include="Assets\Script\PlatformGripper.cs" />
     <Compile Include="Assets\Script\RedirectToLevel.cs" />
     <Compile Include="Assets\Script\RotateSky.cs" />
-    <Compile Include="Assets\SpaceSkies Free\Demo\Scripts\LookCamera.cs" />
-    <Compile Include="Assets\SpaceSkies Free\Demo\Scripts\SkyboxChanger.cs" />
-    <Compile Include="Assets\Zero Rare Audio\Retro Sound Effects\Demo\Demo.cs" />
+    <Compile Include="Assets\Skybox\Demo\Scripts\LookCamera.cs" />
+    <Compile Include="Assets\Skybox\Demo\Scripts\SkyboxChanger.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs" />
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs" />
@@ -92,7 +94,6 @@
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
-    <None Include="Assets\Gems Object\Gems Ultimate Pack\READ ME.txt" />
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
     <None Include="Assets\unity-chan!\Unity-chan! Model\Audio\Voice\unity-chan_voice_list.txt" />
@@ -102,34 +103,34 @@
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
     <None Include="Assets\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Anh Tran/Desktop/Zombie Game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Anh Tran/Desktop/Game Programming/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Anh Tran/Desktop/Zombie Game/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Anh Tran/Desktop/Game Programming/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Anh Tran/Desktop/Zombie Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Anh Tran/Desktop/Game Programming/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Anh Tran/Desktop/Zombie Game/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Anh Tran/Desktop/Game Programming/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Anh Tran/Desktop/Zombie Game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Anh Tran/Desktop/Game Programming/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Anh Tran/Desktop/Zombie Game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Anh Tran/Desktop/Game Programming/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Anh Tran/Desktop/Zombie Game/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Anh Tran/Desktop/Game Programming/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Anh Tran/Desktop/Zombie Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Anh Tran/Desktop/Game Programming/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Anh Tran/Desktop/Zombie Game/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Anh Tran/Desktop/Game Programming/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.quicksearch">
-      <HintPath>C:/Users/Anh Tran/Desktop/Zombie Game/Library/ScriptAssemblies/com.unity.quicksearch.dll</HintPath>
+      <HintPath>C:/Users/Anh Tran/Desktop/Game Programming/Library/ScriptAssemblies/com.unity.quicksearch.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
