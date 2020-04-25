@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class FinishLevel : MonoBehaviour
 {
     public GameObject levelMusic;
@@ -34,5 +35,7 @@ public class FinishLevel : MonoBehaviour
         yield return new WaitForSeconds(1);
         totalScore.SetActive(true);
         yield return new WaitForSeconds(1);
+        SceneManager.LoadScene(3);
+
     }
 }
